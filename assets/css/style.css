@@ -1207,3 +1207,14 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.social-links a.custom-logo {
+  background: none !important; /* Remove background */
+  padding: -2; /* Adjust padding if necessary */
+}
+
+.social-links a.custom-logo img.no-background {
+  width: 36px; /* Set width to match other icons */
+  height: 36px; /* Set height to match other icons */
+  display: block; /* Ensure the image is displayed as a block element */
+}
